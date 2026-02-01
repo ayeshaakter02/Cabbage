@@ -17,7 +17,7 @@ organic Food</h1>
                 </button>
             </div>
             </div>
-            <div className='hidden sm:block xl:ml-20 '>
+            <div className='hidden sm:block'>
                 <img src="./images/slider.png" alt=""/>
             </div>
         </div>
