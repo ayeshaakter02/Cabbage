@@ -6,7 +6,7 @@ import { IoMenu } from "react-icons/io5";
 
 const Navbar = () => {
   return (
-    <div className="container sm:flex sm:justify-between sm:items-center py-2.5 sm:py-3.5 md:py-5 lg:py-6.5">
+    <div className="container sm:flex  sm:items-center py-2.5 sm:py-3.5 md:py-5 lg:py-6.5">
       <div className="w-24 sm:w-32 md:w-40">
         <img src="./images/logo.png" alt="logo" />
       </div>
@@ -21,7 +21,7 @@ const Navbar = () => {
           <li className="hover:text-primary">Contact</li>
         </ul>
       </div>
-      <div className="flex gap-2 lg:gap-4.5 ml-7.75">
+      <div className="flex gap-2 lg:gap-4.75 ml-7.75 lg:ml-34.5">
         <div className="icons">
           <FaRegHeart className="w-3 lg:w-5" />
         </div>

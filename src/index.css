@@ -25,4 +25,7 @@
   .nav-list {
     @apply hover:text-primary hover:bg-[#dff7a3] pl-2 py-2
   }
+  .ban-head {
+    @apply sm:w-80 md:w-100 lg:w-133.75 font-semibold sm:font-bold text-[30px] sm:text-[40px] md:text-[50px] lg:text-[70px] lg:font-Inter lg:mt-[9.9px] md:mb-7.5 mb-5 lg:mb-[35.8px] leading-tight
+  }
 }
