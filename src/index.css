@@ -1,1 +1,28 @@
 @import "tailwindcss";
+
+@layer base {
+  .container {
+    @apply w-292.5 mx-auto;
+  }
+}
+
+@theme {
+  --font-Inter: "Inter", sans-serif;
+  --font-Nunito: "Nunito", sans-serif;
+  --color-primary: #80B500
+}
+
+@layer components{
+  .btn {
+    @apply px-2 py-1.5 text-sm sm:text-[10px] md:text-sm md:px-4 md:py-2.5 lg:px-[31.8px] lg:py-[16.6px] bg-primary text-white font-Inter lg:font-bold
+  }
+  .icons {
+    @apply w-7 h-7 lg:w-8.75 lg:h-8.75 rounded-full hover:bg-primary bg-[#dff7a3] flex justify-center items-center hover:text-white text-primary
+  }
+  .nav-ul {
+    @apply sm:w-80 md:w-100 xl:w-130.5 text-sm md:text-[16px] lg:text-lg font-semibold gap-2 sm:ml-10 lg:ml-26.5 flex justify-between font-Inter md:font-bold ml-8
+  }
+  .nav-list {
+    @apply hover:text-primary hover:bg-[#dff7a3] pl-2 py-2
+  }
+}
